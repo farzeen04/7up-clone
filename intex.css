@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+}
+body {
+  background-color: #3e3e3e;
+}
+.nav-bar{
+  width: 100%;
+  background-color:rgb(247, 154, 131);
+  height: 100px;
+  display:flex;
+  border-bottom: 2px solid white;
+  position:fixed;
+  z-index: 3;
+}
+.logo img{
+  height: 75px;
+  padding-left: 10px;
+  padding-top: 10px;
+} 
+.nav-options{
+   color:aliceblue;
+   text-align: center ;
+   padding-top: 3.3%;
+   padding-left: 40%;
+   font-size: 22px;
+   font-weight:500;  
+
+}
+.nav-1{
+  display:flex;
+  list-style-type:none;
+  gap: 30px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.icons{
+  display:flex;
+  align-items: center;
+  padding-left: 3%;
+
+}
+.icons img{
+  width: 30px;
+  height: 30px;
+  padding-right: 3%;
+
+}
+.text1{
+  position:absolute;
+  top: 50vh;
+  left: 15vh;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  color: white;
+  
+
+
+}  
+.text2{
+  position:absolute;
+  top: 150vh;
+  padding-left: 500px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 800;
+
+}
+
+ 
+
+
+
+/** button **/
+ button
+ {
+  border-radius: 20px;
+  border:0;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom:10px;
+  padding-top: 10px;
+  
+ }
+
+
+
+ 
+
+.image1 img{
+  height: 100%;
+  width: 100%;
+}
+
+.image2 img{
+  height:100%;
+  width: 100%;
+}
+.image3 img{
+  height:100%;
+  width:100%;
+}
+.text2{
+  background-color:rgba(10, 91, 43, 0.8);
+  border-radius: 100px;
+  position: absolute;
+  margin-left: 200px;
+  padding-bottom:34px;
+  
+
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  top: 140vh;
+  margin-left: 450px;
+  color:white;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:rgba(10, 91, 43, 0.8) ;
+   border-radius:  100px; 
+   padding: 30px 50px;
+   z-index: 1;
+}
+  .heading{
+
+    margin-bottom: 20px;
+  }
+  .notes{
+    margin-bottom: 20px;
+  }
+  .banner1
+  {display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top: 250vh;
+    margin-left: 350px;
+    color:white;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:rgba(10, 91, 43, 0.8) ;
+     border-radius:  100px; 
+     padding: 30px 50px; 
+    
+      
+    
+
+  }
+  .heading2{
+
+    margin-bottom: 20px;
+  }
+  .notes2{
+    margin-bottom: 20px;
+  }
+
+/** button **/
+ .button4
+ {
+  border-radius: 20px;
+  border:0;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom:10px;
+  padding-top: 10px;
+ }
+ .footer{
+      display: flex;
+      text-align: center;
+      flex-direction: row;
+      justify-content: center;
+      font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      gap: 20px;
+      padding-top: 15px;
+      color: white;
+      
+ }
+ .footer2{
+       display: flex;
+      text-align: center;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 50px;
+      font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      padding-top:18px;
+      color:white;
+
+ }
+
+
+ 
